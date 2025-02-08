@@ -10,7 +10,7 @@ Script Purpose:
 	  Run this script to re-define the DDL structure of 'bronze' Tables
 ===============================================================================
 */
-
+use Data_warehouse
 --TABLE 1--
 if object_id ('bronze.crm_cust_info','U') is not null
  drop table bronze.crm_cust_info
@@ -36,7 +36,8 @@ CREATE TABLE bronze.crm_prd_info (
     prd_end_dt DATETIME
 );
 --TABLE 3--
-
+if object_id ('bronze.crm_sales_details','U') is not null
+ drop table bronze.crm_sales_details
 CREATE TABLE bronze.crm_sales_details (
     sls_ord_num NVARCHAR(50),
     sls_prd_key NVARCHAR(50),
@@ -49,20 +50,23 @@ CREATE TABLE bronze.crm_sales_details (
     sls_price INT
 );
 --TABLE 4--
-
+if object_id ('bronze.erp_loc_a101','U') is not null
+ drop table bronze.erp_loc_a101
 CREATE TABLE bronze.erp_loc_a101 (
     cid NVARCHAR(50),
     cntry NVARCHAR(50)
 );
 --TABLE 5--
-
+if object_id ('bronze.erp_cust_az12','U') is not null
+ drop table bronze.erp_cust_az12
 CREATE TABLE bronze.erp_cust_az12 (
     cid NVARCHAR(50),
     bdate DATE,
     gen NVARCHAR(50)
 );
 --TABLE 6--
-
+if object_id ('bronze.erp_px_cat_g1v2','U') is not null
+ drop table bronze.erp_px_cat_g1v2
 CREATE TABLE bronze.erp_px_cat_g1v2 (
     id NVARCHAR(50),
     cat NVARCHAR(50),
