@@ -160,6 +160,11 @@ BEGIN
 		PRINT 'TOTAL LOADING DURATION: '+CAST(DATEDIFF(second,@start,@end) as NVARCHAR)+' SECONDS'
 	END TRY
 	BEGIN CATCH
+			PRINT '========================================'
+			PRINT 'Error Message'+ error_message();
+			PRINT 'Error Message'+ cast(error_number() as nvarchar);
+			PRINT 'Error Message'+ cast(error_state() as nvarchar);
+			PRINT '======================================='
 	END CATCH
 END
 
