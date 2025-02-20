@@ -42,4 +42,4 @@ This project is licensed under the [MIT License](LICENSE). It is free to modify,
 
 ## 🌟 About Me
 I am Santhosh, a graduate in B.E. Agriculture Engineering from Sri Shakthi Institute of Engineering and Technology, Coimbatore, with a CGPA of 8.32,
-and i have since acquired skills in Python, Pandas, MS SQL, and Power BI. I am keen on utilizing these technologies to excel in data analysis.
+and i have since acquired skills in Python, Pandas, MS SQL, Power BI and excel. I’m eager to contribute my skills to innovative projects that drive efficiency and growth.
