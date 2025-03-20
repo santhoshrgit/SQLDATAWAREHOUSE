@@ -36,10 +36,3 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
-## 🛡️ License
-
-This project is licensed under the [MIT License](LICENSE). It is free to modify, and share this project with proper attribution.
-
-## 🌟 About Me
-I am Santhosh, a graduate in B.E. Agriculture Engineering from Sri Shakthi Institute of Engineering and Technology, Coimbatore, with a CGPA of 8.32,
-and i have since acquired skills in Python, Pandas, MS SQL, Power BI and excel. I’m eager to contribute my skills to innovative projects that drive efficiency and growth.
